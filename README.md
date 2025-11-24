@@ -11,18 +11,8 @@ Pathify scans your project, builds `prefix@name` aliases for each in-development
 ---
 
 ## Installation
-
 ```bash
-npm install @reaxion/pathify
-
-# Pathify
-
-Workspace-aware module aliasing for local Node packages. Pathify walks your project tree, builds `pathify@name` aliases for every in-development package, installs a Node resolver hook, and keeps your editor config in sync so working on multi-package workspaces feels like consuming published modules.
-
-## Install
-
-```bash
-npm install @reaxion/pathify
+npm install @stratware/pathify
 ```
 
 ## Quick Start
