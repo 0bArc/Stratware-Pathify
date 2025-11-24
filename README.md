@@ -1,3 +1,20 @@
+![Node.js](https://img.shields.io/badge/Node.js-v18.17.1-blue?style=for-the-badge&logo=node.js)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows)
+![Stars](https://img.shields.io/github/stars/0bArc/Stratware-Pathify?style=for-the-badge&color=gold)
+![License](https://img.shields.io/github/license/0bArc/Stratware-Pathify?style=for-the-badge&color=green)
+
+# Pathify
+
+Workspace-aware module aliasing for local Node packages.  
+Pathify scans your project, builds `prefix@name` aliases for each in-development package, installs a resolver hook, and keeps your editor configuration aligned—making multi-package workspaces feel like consuming published modules.
+
+---
+
+## Installation
+
+```bash
+npm install @reaxion/pathify
+
 # Pathify
 
 Workspace-aware module aliasing for local Node packages. Pathify walks your project tree, builds `pathify@name` aliases for every in-development package, installs a Node resolver hook, and keeps your editor config in sync so working on multi-package workspaces feels like consuming published modules.
